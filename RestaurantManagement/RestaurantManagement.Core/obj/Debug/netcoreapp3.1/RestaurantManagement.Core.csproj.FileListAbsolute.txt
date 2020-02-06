@@ -1,0 +1,8 @@
+C:\ASP.NET_Fundamentals_Implementation\RestaurantManagement\RestaurantManagement.Core\bin\Debug\netcoreapp3.1\RestaurantManagement.Core.deps.json
+C:\ASP.NET_Fundamentals_Implementation\RestaurantManagement\RestaurantManagement.Core\bin\Debug\netcoreapp3.1\RestaurantManagement.Core.dll
+C:\ASP.NET_Fundamentals_Implementation\RestaurantManagement\RestaurantManagement.Core\bin\Debug\netcoreapp3.1\RestaurantManagement.Core.pdb
+C:\ASP.NET_Fundamentals_Implementation\RestaurantManagement\RestaurantManagement.Core\obj\Debug\netcoreapp3.1\RestaurantManagement.Core.csprojAssemblyReference.cache
+C:\ASP.NET_Fundamentals_Implementation\RestaurantManagement\RestaurantManagement.Core\obj\Debug\netcoreapp3.1\RestaurantManagement.Core.AssemblyInfoInputs.cache
+C:\ASP.NET_Fundamentals_Implementation\RestaurantManagement\RestaurantManagement.Core\obj\Debug\netcoreapp3.1\RestaurantManagement.Core.AssemblyInfo.cs
+C:\ASP.NET_Fundamentals_Implementation\RestaurantManagement\RestaurantManagement.Core\obj\Debug\netcoreapp3.1\RestaurantManagement.Core.dll
+C:\ASP.NET_Fundamentals_Implementation\RestaurantManagement\RestaurantManagement.Core\obj\Debug\netcoreapp3.1\RestaurantManagement.Core.pdb

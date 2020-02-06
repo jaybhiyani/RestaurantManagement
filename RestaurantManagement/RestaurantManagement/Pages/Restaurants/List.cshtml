@@ -1,0 +1,45 @@
+﻿@page
+@model RestaurantManagement.Pages.Restaurants.ListModel
+@{
+}
+<h1>Restaurants</h1>
+@Model.Message
+
+@if(TempData["Message"] != null)
+{
+    <div class="alert alert-info">Restaurant Saved</div>
+}
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span>
+                <button type="submit" class="btn btn-primary">
+                    Search
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    @foreach(var restaurant in Model.Restaurants)
+    {
+        <tr>
+            <td>@restaurant.Name</td>
+            <td>@restaurant.Location</td>
+            <td>@restaurant.Cuisine</td>
+            <td>
+                <a class="btn btn-outline-primary"
+                   asp-page="./Detail" asp-route-restaurantId="@restaurant.Id">
+                    Edit
+                </a>
+                <a class="btn btn-outline-primary"
+                    asp-route-restaurantId="@restaurant.Id">
+                    Delete
+                </a>
+            </td>
+        </tr>
+    }
+</table><br />
+<a asp-page="./Detail" class="btn btn-primary">Add Restaurant</a>

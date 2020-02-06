@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj": {}
+  },
+  "projects": {
+    "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Core\\RestaurantManagement.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Core\\RestaurantManagement.Core.csproj",
+        "projectName": "RestaurantManagement.Core",
+        "projectPath": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Core\\RestaurantManagement.Core.csproj",
+        "packagesPath": "C:\\Users\\jbhiyani\\.nuget\\packages\\",
+        "outputPath": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jbhiyani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Data\\RestaurantManagement.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Data\\RestaurantManagement.Data.csproj",
+        "projectName": "RestaurantManagement.Data",
+        "projectPath": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Data\\RestaurantManagement.Data.csproj",
+        "packagesPath": "C:\\Users\\jbhiyani\\.nuget\\packages\\",
+        "outputPath": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jbhiyani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Core\\RestaurantManagement.Core.csproj": {
+                "projectPath": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Core\\RestaurantManagement.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
+        "projectName": "RestaurantManagement",
+        "projectPath": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
+        "packagesPath": "C:\\Users\\jbhiyani\\.nuget\\packages\\",
+        "outputPath": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jbhiyani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Data\\RestaurantManagement.Data.csproj": {
+                "projectPath": "C:\\ASP.NET_Fundamentals_Implementation\\RestaurantManagement\\RestaurantManagement.Data\\RestaurantManagement.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
